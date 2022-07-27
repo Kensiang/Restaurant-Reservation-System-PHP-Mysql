@@ -1,5 +1,7 @@
 <?php 
 session_start();
+
+//Change to your database connection
 $data = mysqli_connect("localhost","root","root","restLogin");
 
 if($data==false){
