@@ -9,19 +9,19 @@
 
 </head>
 <body>
-
 			
 				<center>
                 <h1>Welcome to the Restaurant</h1>    
                 
                 <h2>Login Form</h2>
-                
+                    	
                     <h4>
                         <?php 
                         error_reporting(0);
                         session_start();
                         session_destroy();
                         ?>
+		    // all the session message will be showing here.
                     <div class="session">   
                     <?php    
                         echo $_SESSION['loginMessage'];
@@ -34,8 +34,7 @@
                     </div> 
                     </h4>
                 </center>
-			
-			
+	
 			<form action="login_check.php" method="POST" class="login_form" style="max-width:500px;margin:auto">
 				
 				<div class="input-container">
@@ -53,11 +52,6 @@
 			</form>
 
             <p class="signin">Not yet a memeber?<a href="register.php">Sign Up</a></p>
-
-
-		
-
-	
 
 </body>
 </html>
