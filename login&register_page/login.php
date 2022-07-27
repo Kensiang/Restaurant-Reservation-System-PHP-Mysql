@@ -10,45 +10,42 @@
 </head>
 <body>
 			
-				<center>
-                <h1>Welcome to the Restaurant</h1>    
+		<center>
+                	<h1>Welcome to the Restaurant</h1>    
                 
-                <h2>Login Form</h2>
+                	<h2>Login Form</h2>
                     	
-                    <h4>
-                        <?php 
-                        error_reporting(0);
-                        session_start();
-                        session_destroy();
-                        ?>
-		    // all the session message will be showing here.
-                    <div class="session">   
-                    <?php    
-                        echo $_SESSION['loginMessage'];
+			    <h4>
+				<?php 
+				error_reporting(0);
+				session_start();
+				session_destroy();
+				?>
+			    // all the session message will be showing here.
+			    <div class="session">   
+				    <?php    
+					echo $_SESSION['loginMessage'];
 
-                        if(isset($_SESSION['registered'])){
-                            echo $_SESSION['registered'];
-                            unset($_SESSION['registered']);
-                        }
-                    ?>
-                    </div> 
-                    </h4>
+					if(isset($_SESSION['registered'])){
+					    echo $_SESSION['registered'];
+					    unset($_SESSION['registered']);
+					}
+				    ?>
+			    </div> 
+			  </h4>
                 </center>
-	
 			<form action="login_check.php" method="POST" class="login_form" style="max-width:500px;margin:auto">
-				
 				<div class="input-container">
-                    <i class="fa fa-user icon"></i>
-	                <input class="input-field" placeholder="Username" type="text" name="username">
+					<i class="fa fa-user icon"></i>
+					<input class="input-field" placeholder="Username" type="text" name="username">
 				</div>
 
 				<div class="input-container">
-                    <i class="fa fa-key icon"></i>
+					<i class="fa fa-key icon"></i>
 					<input class="input-field" placeholder="Password" type="Password" name="password">
 				</div>
 
-					
-					<input class="btn" type="submit" name="submit" value="Login">
+				<input class="btn" type="submit" name="submit" value="Login">
 			</form>
 
             <p class="signin">Not yet a memeber?<a href="register.php">Sign Up</a></p>
