@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $userType= "user";
     $password = $_POST['psw'];
 
-    //Change to your table in this sql query.
+    //Change to your table name in this sql query.
     $sql = "INSERT INTO user (username,phone,email,usertype,password) VALUES ('$name','$phone','$email','$userType','$password')";
 
     $res = mysqli_query($data,$sql);
@@ -27,8 +27,6 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         $_SESSION['failed']="Account failed to register.";
         header("location:login.php");
     }
-
 }
-
 
 ?>
