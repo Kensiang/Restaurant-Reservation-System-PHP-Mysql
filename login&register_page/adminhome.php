@@ -1,34 +1,26 @@
 <?php 
-session_start();
-$data = mysqli_connect("localhost","root","root","restLogin");
+    session_start();
 
-if($data==false){
-    die("connection error");
-}
-
-if($_SERVER["REQUEST_METHOD"]=="POST"){
-    $name = $_POST['usrnm'];
-    $phone = $_POST['phone'];
-    $email = $_POST['email'];
-    $userType= "user";
-    $password = $_POST['psw'];
-
-    //Change to your table in this sql query.
-    $sql = "INSERT INTO user (username,phone,email,usertype,password) VALUES ('$name','$phone','$email','$userType','$password')";
-
-    $res = mysqli_query($data,$sql);
-
-    if($res == TRUE){
-        $_SESSION['registered']= "<div class='sucess'>Account registered successfully.</div> ";
-
-        //Redirect to login
-        header("location:login.php");
-    }else{
-        $_SESSION['failed']="Account failed to register.";
+    //it will redirect to login page if we access the admin or user home page directly without login.
+    //it will redirect to login page if we access admin page with user account, or vice-versa.
+    if(!isset($_SESSION['username'])){
         header("location:login.php");
     }
-
-}
-
-
+    elseif($_SESSION['usertype']=='user'){
+        header("location:login.php");
+    }
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+</head>
+<body>
+    <h1>ADMIN Home</h1>
+    <br>
+    <a href="logout.php">Logout</a>
+</body>
+</html>
