@@ -43,7 +43,8 @@ if($data===false)
 			$_SESSION['username']=$name;
 
 			$_SESSION['usertype']="user";
-
+			
+			// Change the url to your login page
 			header("location:userhome.php");
 		}
 
@@ -52,7 +53,8 @@ if($data===false)
 			$_SESSION['username']=$name;
 
 			$_SESSION['usertype']="admin";
-
+			
+			// Change the url to your admin page
 			header("location:adminhome.php");
 		}
 
