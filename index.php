@@ -4,7 +4,6 @@
     <title>Welcome to the Food Nation</title>
     <?php include('./includes/header.php') ?>
   </head>
-
     <?php include('./includes/nav.php') ?>
 
         <div class="section"  data-aos="fade-up">
