@@ -13,7 +13,10 @@ Food-Nation is a web application developed to provide online restaurant reservat
 ## Installation
 ---
 1. Download [XAMMP](https://www.apachefriends.org/download.html)
-2. 
-3. Unzip `Restaurant-Reservation-System-PHP-Mysql`
-4. 
-
+2. Open XAMPP Control panel and start running [apche] and [mysql].
+3. Download and Unzip `Restaurant-Reservation-System-PHP-Mysql`
+  Or follow gitbash command
+  `i>cd C:\\xampp\htdocs\`
+  `ii>git clone https://github.com/PuneethReddyHC/online-shopping-system-advanced.git`
+4. asca
+5. 
