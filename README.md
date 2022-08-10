@@ -34,7 +34,7 @@ Food-Nation is a web application developed to provide online restaurant reservat
 - Access `../food_nation.register.php` to register user account.
 - Access `../food_nation.login.php` to login user or admin account.
 - Acess `../reservationbooking.php` to  make the reservation. 
-- Access `../food_nation/user-viewbooking.php` to view your boooking (Must make the reservation first and the reservation name must same as your login username[not case-sensitive])
+- Access `../food_nation/user-viewbooking.php` to view your boooking (Must make the reservation first and the reservation name must same as your login username[non-case sensitive])
 - Access `../food_nation/index%20admin%20page.php` : Admin HomePage (Must log in admin account first). 
 - Admin account details Username=admin, Password:admin. 
 
