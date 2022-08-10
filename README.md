@@ -1,9 +1,7 @@
 ## Restaurant Reservation system written By PHP and database:Mysql
-Food-Nation is a web application developed by:
-- Melvin Kee Jing Kai (CT0366754)
-- Ng Jun Yin (CT0333320)
-- Sharmaine Ryana (CT0329907)
-- Koh Ken Siang (CT0360001)
-- Toh Jun Boon (CT0364829)
-- Soon Wei Leong (CT0359310)
+Food-Nation is a web application developed to provide online restaurant reservation to our customer. Customer can make reservation based on their cuisine they like, the location, the price range, the Date & time etc. Admin of restaurant will communicate with the users through phone call or e-mails. 
+
+- Customer can choose to browse and make the table reservation without Log In.
+- Customer can choose to register and log in for a better browsing experience. Customer can only view/edit/cancel their booking after they log in.
 ---
+
