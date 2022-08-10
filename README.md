@@ -26,7 +26,7 @@ Food-Nation is a web application developed to provide online restaurant reservat
 6. Create 2 database name as:
    - (food_nation) -- Import `food_nation.sql` from the folder downloaded from github to this database.
    - (rbs) --  Import `rbs.sql` from folder downloaded from github to this database. 
-7. Open any google chrome browser and type **localhost:[your Apache portNumber]/food_nation/. 
+7. Open google chrome browser and type **localhost:[your Apache portNumber]/food_nation/. 
 ---
 
 > ## Guide
