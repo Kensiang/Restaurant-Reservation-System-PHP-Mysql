@@ -17,8 +17,8 @@ Food-Nation is a web application developed to provide online restaurant reservat
 2. Open XAMPP Control panel and start running [apche] and [mysql].  
 3. Download and Unzip `Restaurant-Reservation-System-PHP-Mysql`.  
   Or follow gitbash command:  
-  ```i>cd C:\\xampp\htdocs\````.   
-   ```ii>git clone https://github.com/Kensiang/Restaurant-Reservation-System-PHP-Mysql.git```. 
+  ```i>cd C:\\xampp\htdocs\.   
+     ii>git clone https://github.com/Kensiang/Restaurant-Reservation-System-PHP-Mysql.git```. 
 4. Extract files in C:\xampp\htdocs.
 5. open link `localhost:[your Apache port number]/phpmyadmin` on browser. (You can found your port number on XAMPP control panel). You can use the Admin button of your database module to open phpMyAdmin.   
 6. Create 2 database name as:
