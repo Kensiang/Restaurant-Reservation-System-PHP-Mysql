@@ -1,0 +1,70 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: black;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.input-field:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+#register-p{
+    font-size: 12px;
+}
+
+.signin{
+    text-align: center;
+    margin-top: 25px;
+}
+a{
+    color: dodgerblue;
+}
+
+center{
+    margin-top: 5%;
+}
+
+.login-title{
+    padding: 7%;
+}
+
+.session{
+    color: darkblue;
+    font-size: small;
+}
