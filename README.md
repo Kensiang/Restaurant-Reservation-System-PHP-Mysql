@@ -12,4 +12,4 @@ Food-Nation is a web application developed to provide online restaurant reservat
 
 ## Installation
 ---
-[Unzip] 
+`Unzip`
