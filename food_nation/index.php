@@ -427,7 +427,7 @@
             </div>
             <div class="row justify-content-center">
               <div class="col-md-10 p-5 form-wrap">
-                <form method="post" action="./contactprocess.php">
+                <form method="post" action="./contact-process.php">
                   <div class="row mb-4">
                     <div class="form-group col-md-4">
                     <label for="name" class="label">Name</label>
