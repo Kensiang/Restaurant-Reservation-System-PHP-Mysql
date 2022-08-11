@@ -28,7 +28,7 @@
 				<div class="formcenter">
 															<?php
 															include_once 'database.php';
-															if(isset($_POST['contactSubmit']))
+															if(isset($_POST['feedbacksubmit']))
 															{	 
 																$name = $_POST['name'];
                                                                 $email = $_POST['email'];
